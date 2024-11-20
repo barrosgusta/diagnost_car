@@ -29,9 +29,7 @@ Este sistema é responsável por identificar problemas comuns em veículos com b
 ### Exemplo de uso:
 
 ```prolog
-?- diagnosticar\_problema.
-Informe o sintoma encontrado (motor\_nao\_liga, luzes\_fracas, barulho\_ao\_frear, pedal\_freio\_macio): 
-|: motor\_nao\_liga.
+?- diagnosticar.
 ```
     
 
@@ -55,9 +53,7 @@ Este sistema sugere diagnósticos médicos com base em sintomas informados pelo 
 ### Exemplo de uso:
 
 ```prolog
-?- diagnosticar\_doenca.
-Informe o sintoma encontrado (febre, dor\_de\_cabeca, tosse, cansaço): 
-|: febre.
+?- diagnosticar.
 ```
     
 
@@ -79,9 +75,7 @@ Este sistema sugere livros com base nas preferências de gênero e interesses do
 ### Exemplo de uso:
 
 ```prolog
-?- recomendar\_livro.
-Informe seu interesse (politica, ciencia, historia, autoajuda): 
-|: ciencia.
+?- recomendar_livros.
 ```
     
 
@@ -104,11 +98,7 @@ Este sistema sugere treinos de academia baseados nos objetivos do usuário, como
 ### Exemplo de uso:
 
 ```prolog
-?- recomendar\_treino.
-Informe seu objetivo (ganhar\_massa, emagrecer): 
-|: ganhar\_massa.
-Informe seu nível de experiência (iniciante, intermediario, avançado): 
-|: intermediario.
+?- recomendar_treino.
 ```
     
 
@@ -131,8 +121,8 @@ Este sistema ajuda na análise de casos criminais, sugerindo suspeitos ou teoria
 ### Exemplo de uso:
 
 ```prolog
-?- analisar\_caso.
-Informe a evidência ou testemunho encontrado (impressao\_digital, motivo, testemunha, alibi): 
+?- analisar_caso.
+Informe a evidência ou testemunho encontrado (impressao_digital, motivo, testemunha, alibi): 
 |: motivo(financeiro).
 ```
     
@@ -154,12 +144,10 @@ cd prolog-sistemas
 
 Abra o arquivo .pl no SWI-Prolog:
 ```prolog
-?- \[nome\_do\_arquivo\].
+?- [nome_do_arquivo].
 ```
     
 
 ### 2\. Execução:
 
-Para iniciar o sistema, use o comando adequado para cada sistema (por exemplo, `?- diagnosticar_problema.`).
-
-* * *
+Para iniciar o sistema, use o comando adequado para cada sistema (por exemplo, `?- diagnosticar.`).
